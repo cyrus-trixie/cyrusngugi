@@ -158,6 +158,19 @@ header {
 #readMore:hover {
     background-color: #FF8800;
 }
+#readMoreContent{
+    background-color:#FFA300; 
+    color: black; 
+    padding: 20px;
+    width: 90%;
+    font-size: medium;
+    font-family: sans-serif;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+
 
 .about-text {
     flex: 1;
@@ -221,6 +234,18 @@ header {
     
 }
 
+.hamburgerList{
+    background: white;
+    width: 100vh;
+    padding: 20px;
+    height: 50vh;
+    display: none;
+    flex-direction: column;
+    gap: 40px;
+    font-size: large;
+   
+}
+
 
 
 /* Responsive Design */
@@ -243,7 +268,9 @@ header {
 
     .hamburger {
         display: flex;
+       
     }
+   
 
     .hero h1 {
         font-size: 36px;
